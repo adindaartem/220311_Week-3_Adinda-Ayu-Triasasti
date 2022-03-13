@@ -1,5 +1,5 @@
-class beast_titan {
-  String _lempar() => "wush..wush";
-  String get lempar => lempar;
-  set lempar(String value) => lempar = value; 
+import 'titan.dart';
+
+class beast_titan extends titan  {
+  String lempar() => "wush..wush";
 }

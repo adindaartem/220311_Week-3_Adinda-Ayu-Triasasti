@@ -1,5 +1,5 @@
-class attack_titan {
-  String _punch() => "blam..blam..";
-  String get punch => punch;
-  set punch(String value) => punch= value; 
+import 'titan.dart';
+
+class attack_titan extends titan  {
+  String punch() => "blam..blam..";
 }

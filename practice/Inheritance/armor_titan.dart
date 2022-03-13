@@ -1,5 +1,5 @@
-class armor_titan {
-  String _terjang() => "Dush..dush..";
-  String get terjang => terjang;
-  set terjang(String value) => terjang = value; 
-}
+import 'titan.dart';
+
+class armor_titan extends titan {
+  String terjang() => "Dush..dush..";
+} 
